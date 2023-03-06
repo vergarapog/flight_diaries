@@ -3,6 +3,7 @@ content-type: application/json
 
 {
 "date": "2017-05-11",
-"weather": "dddd",
-"visibility": "asd"
+"weather": "sunny",
+"visibility": "dark",
+"comment": "good stuf"
 }

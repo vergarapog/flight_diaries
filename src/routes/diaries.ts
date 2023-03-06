@@ -25,7 +25,7 @@ router.post("/", (req, res) => {
 
     res.json(addedDiary);
   } catch (error) {
-    let errorMessage = "Something went wrong";
+    let errorMessage = "Something went wrong. ";
     if (error instanceof Error) {
       errorMessage += "Error: " + error.message;
     }
